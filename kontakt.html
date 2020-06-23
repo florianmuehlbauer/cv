@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kontaktdaten</title>
+  </head>
+  <body>
+    <h1>Meine Kontaktdaten</h1>
+    <p>Florian Mühlbauer</p>
+    <p>Adresse: Mannheim</p>
+    <p>Email: florianmuehlbauer@gmail.com</p>
+
+    <form action="mailto:florianmuehlbauer@gmail.com" method="post" enctype="text/plain">
+      <label>Dein Name:</label>
+      <input type="text" name="Dein Name" value=""><br>
+      <label for="email">Deine Email</label>
+      <input type="email" name="Deine Email" value="">
+      <br>
+      <input type="checkbox" name="Newsletter">
+      <label>Newsletter?</label>
+      <br>
+      <textarea name="Deine Nachricht" rows="10" cols="30"></textarea>
+      <br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
